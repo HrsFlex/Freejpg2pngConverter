@@ -89,4 +89,12 @@ body {
     max-height: 100%;
     display: none;
   }
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+  }
   
+  .footer p {
+    color: #666;
+    font-size: 14px;
+  }  
