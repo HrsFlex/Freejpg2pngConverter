@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
           ctx.drawImage(img, 0, 0);
           const convertedImage = canvas.toDataURL(`image/${format}`);
   
-          // Create a download link for the converted image
+        
           const downloadLink = document.createElement('a');
           downloadLink.href = convertedImage;
           downloadLink.download = `converted_image.${format}`;
