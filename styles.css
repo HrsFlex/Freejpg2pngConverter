@@ -98,3 +98,7 @@ body {
     color: #666;
     font-size: 14px;
   }  
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
