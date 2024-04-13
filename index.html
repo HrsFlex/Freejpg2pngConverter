@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Converter</title>
+  <meta name="description" content="Convert your images from JPG to PNG or vice versa quickly and easily. Follow these simple steps to use the image converter tool.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Converter</h1>
+    <p class="description">Convert your images from JPG to PNG or vice versa quickly and easily using our image converter tool. Follow these simple steps:</p>
+    <ol class="steps">
+      <li>Select the image file you want to convert by clicking the "Choose Image" button.</li>
+      <li>Click on either "Convert to PNG" or "Convert to JPG" button based on your desired output format.</li>
+      <li>Your converted image will be displayed below along with a download link.</li>
+      <li>Click the download link to save the converted image to your device.</li>
+    </ol>
+    <div class="upload-section">
+      <label for="fileInput" class="file-label">
+        <input type="file" id="fileInput" class="file-input">
+        <span class="file-text">Choose Image</span>
+      </label>
+      <span class="file-info" id="fileInfo"></span>
+    </div>
+    <div class="image-preview" id="imagePreview">
+      <img src="#" alt="Image Preview" id="previewImage">
+    </div>
+    <div class="buttons">
+      <button id="convertToPNG">Convert to PNG</button>
+      <button id="convertToJPG">Convert to JPG</button>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
